@@ -1,0 +1,616 @@
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.clear-fix{
+    clear:both
+}
+.container{
+    width:1000px;
+    margin:auto
+}
+
+/* start header */
+
+header{
+    background-image:url('1.jpg');
+    background-size:cover;
+    height:700px
+}
+header .cover{
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.6)
+}
+header nav{
+    height:120px
+}
+header nav .logo{
+    float:left;
+    font:normal bold 30px/120px arial;
+    text-transform:uppercase;
+    color:#ffd136
+}
+header nav ul{
+    list-style:none;
+    float:right;
+    display:inline-block;
+    font:normal bold 14px/20px arial;
+    text-transform:uppercase;
+    letter-spacing:0.05em
+}
+header nav ul li{
+    float:left;
+    margin:50px 15px;
+    color:#fff;
+    transition:0.5s all ease
+}
+header nav ul li:hover{
+    color:#ffd136;
+    cursor:pointer
+}
+header section{
+    text-align:center;
+    margin-top:150px;
+    padding:0 0 150px 0
+}
+header section p{
+    font:italic normal 40px/35px comedy;
+    text-transform:capitalize;
+    color:#fff
+}
+header section h1{
+    font:normal bold 70px/170px arial;
+    text-transform:uppercase;
+    color:#fff
+}
+header section div{
+    display:inline-block;
+    width:240px;
+    height:65px;
+    font:normal bold 17px/65px arial;
+    text-transform:uppercase;
+    color:#eee;
+    background-color:#ffd136;
+    border-radius:3px;
+    transition:0.5s all ease;
+    letter-spacing:0.05em
+}
+header section div:clicked{
+    cursor:pointer;
+    opacity:0.5
+}
+
+/* End header */
+
+
+/* Start Services */
+.services{
+    text-align:center;
+    margin-top:100px;
+    height:400px
+}
+.services-head h2{
+    font:normal bold 40px/70px arial;
+    text-transform:uppercase;
+    color:#1e1e1e
+}
+.services-head p{
+    font:italic normal 18px/20px arial;
+    color:#999;
+    text-transform:capitalize
+}
+.services-data{
+    margin-top:70px
+}
+.services-data-1{
+    float:left;
+    width:33.333333%
+}
+.services-data-1-icon{
+    display:inline-block;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    border:3px solid #ffd136;
+    color:#ffd136;
+    line-height:70px;
+    font-size:40px;
+    transition:0.5s all ease
+}
+.services-data-1-data{
+    padding:25px
+}
+.services-data-1-data:hover{
+    cursor:pointer;
+}
+.services-data-1:hover .services-data-1-icon{
+    width:80px;
+    height:80px;
+    line-height:80px;
+    font-size:50px;
+}
+.services-data-1-data h4{
+    font:normal bold 18px/20px arial;
+    text-transform:capitalize;
+    color:#333
+}
+.services-data-1-data p{
+    margin-top:15px;
+    font:normal normal 14px/20px tahoma;
+    color:#777;
+    text-transform:capitalize;
+}   
+/* End Services */
+
+
+/* Start our portfolio */
+.portfolio{
+    height:1150px;
+    margin-top:50px;
+    background-color:#f7f7f7;
+    text-align:center
+}
+.portfolio-head{
+    display:inline-block;
+    margin:100px 0
+}
+.portfolio-head h2{
+    font:normal bold 40px/60px arial;
+    text-transform:uppercase;
+    color:#1e1e1e
+}
+.portfolio-head p{
+    font:italic normal 18px/20px arial;
+    color:#999;
+    text-transform:capitalize
+}
+.portfolio-data-1{
+    float:left;
+    width:29.3%;
+    margin:2.5% 2%;
+    height:330px;
+    padding:5px;
+    border:2px solid #ddd
+}
+.portfolio-data-1 .scale{
+    height:75%;
+    overflow:hidden
+}
+.portfolio-data-up-1,
+.portfolio-data-up-2,
+.portfolio-data-up-3,
+.portfolio-data-up-4,
+.portfolio-data-up-5,
+.portfolio-data-up-6{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    transition:2s all ease;
+    transition-timing-function:ease-in
+}
+.portfolio-data-up-1{
+    background-image:url('6.jpg')
+}
+.portfolio-data-up-1 .cover,
+.portfolio-data-up-2 .cover,
+.portfolio-data-up-3 .cover,
+.portfolio-data-up-4 .cover,
+.portfolio-data-up-5 .cover,
+.portfolio-data-up-6 .cover{
+    width:100%;
+    height:100%;
+    transition:0.5s all ease
+}
+.portfolio-data-1:hover{
+    cursor:pointer
+}
+.portfolio-data-1:hover .portfolio-data-up-1,
+.portfolio-data-1:hover .portfolio-data-up-2,
+.portfolio-data-1:hover .portfolio-data-up-3,
+.portfolio-data-1:hover .portfolio-data-up-4,
+.portfolio-data-1:hover .portfolio-data-up-5,
+.portfolio-data-1:hover .portfolio-data-up-6{
+    transform:scale(1.3)
+}
+.portfolio-data-1:hover .cover{
+    background-color:rgba(0, 0, 0, 0.2)
+}
+.portfolio-data-up-2{
+    background-image:url('5.jpg');
+}
+.portfolio-data-up-3{
+    background-image:url('4.jpg');
+}
+.portfolio-data-up-4{
+    background-image:url('2.jpg');
+}
+.portfolio-data-up-5{
+    background-image:url('3.jpg');
+}
+.portfolio-data-up-6{
+    background-image:url('1.jpg');
+}
+
+.portfolio-data-down{
+    height:25%;
+    width:100%;
+    display:inline-block;
+    background-color:#fff
+}
+.portfolio-data-down h4{
+    font:normal bold 20px/30px arial;
+    text-transform:capitalize;
+    color:#1e1e1e;
+    margin-top:10px
+}
+.portfolio-data-down p{
+    font:normal normal 16px/20px arial;
+    color:#777;
+    text-transform:capitalize
+}
+/* End our portfolio */
+
+
+/* Start About Us */
+.about-us{
+    text-align:center;
+    height:1600px;
+    margin-top:100px
+}
+.about-us-head h2{
+    font:normal bold 40px/60px arial;
+    text-transform:uppercase;
+    color:#1e1e1e
+}
+.about-us-head p{
+    font:normal normal 18px/20px arial;
+    color:#999;
+    text-transform:capitalize
+}
+.about-us-data{
+    margin-top:80px
+}
+.about-us-data-1{
+    float:left;
+    width:59%
+}
+.about-us-data-1-image{
+    display:inline-block;
+    width:31%;
+    height:180px;
+    float:right;
+    border-radius:50%;
+    border:7px solid #f0f0f0;
+    background-image:url('1.jpg');
+    background-size:cover;
+    margin-left:40px;
+    transition:1s all ease
+}
+.about-us-data-1-image:hover{
+    cursor:pointer;
+    box-shadow:1px 1px 20px 5px #ccc
+}
+.about-us-data-1-data{
+    width:69%
+}
+.about-us-data-1-data h4{
+    text-align:right;
+    font:normal bold 18px/30px arial;
+    text-transform:uppercase;
+    color:#1e1e1e
+}
+.about-us-data-1-data p{
+    padding-left:80px;
+    text-align: right;
+    font:normal normal 15px/20px arial;
+    color:#777;
+    text-transform:capitalize
+}
+.about-us-data-11{
+    text-align:center;
+    height:100px;
+}
+.about-us-data-11-image{
+    display:inline-block;
+    width:2px;
+    height:100%;
+    background-color:#f0f0f0
+}
+.about-us-data-2{
+    float:right;
+    width:59%
+}
+.about-us-data-2-image{
+    display:inline-block;
+    width:31%;
+    height:180px;
+    float:left;
+    border-radius:50%;
+    border:7px solid #f0f0f0;
+    background-image:url('2.jpg');
+    background-size:cover;
+    margin-right:40px;
+    transition:1s all ease
+}
+.about-us-data-2-image:hover{
+    cursor:pointer;
+    box-shadow:1px 1px 20px 5px #ccc
+}
+.about-us-data-2-data{
+    display:inline-block;
+    width:62%
+}
+.about-us-data-2-data h4{
+    text-align:left;
+    font:normal bold 18px/30px arial;
+    text-transform:uppercase;
+    color:#1e1e1e
+}
+.about-us-data-2-data p{
+    padding-right:80px;
+    text-align: left;
+    font:normal normal 15px/20px arial;
+    color:#777;
+    text-transform:capitalize
+}
+.about-us-data-22{
+    text-align:center;
+    height:100px;
+}
+.about-us-data-22-image{
+    display:inline-block;
+    width:2px;
+    height:100%;
+    background-color:#f0f0f0
+}
+.about-us-data-1-image-3{
+    background-image:url('3.jpg')
+}
+.about-us-data-1-image-4{
+    background-image:url('5.jpg')
+}
+.about-us-data-1-image-finish{
+    background-image: none;
+    background-color:#fed136;
+    color:#fff;
+    padding-top:20px;
+    font:normal bold 19px/30px arial;
+    text-transform:uppercase
+}
+/* End About Us*/
+
+
+/* Start Our Team */
+.our-team{
+    text-align:center;
+    height:850px;
+    background-color:#f9f9f9
+}
+.our-team-head{
+    display:inline-block;
+    margin-top:100px
+}
+.our-team-head h2{
+    font:normal bold 40px/70px arial;
+    text-transform:uppercase;
+    color:#1e1e1e
+}
+.our-team-head p{
+    font:normal normal 18px/20px arial;
+    color:#999;
+    text-transform:capitalize
+}
+.our-team-data{
+    margin-top:100px
+}
+.our-team-data-1{
+    float:left;
+    width:33.3333%
+}
+.our-team-data-1-image,
+.our-team-data-2-image,
+.our-team-data-3-image{
+    display:inline-block;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-size:cover;
+    border:2px solid #fed136
+}
+.our-team-data-1-image{
+    background-image: url('per1.png')
+}
+.our-team-data-2-image{
+    background-image: url('per3.png')
+}
+.our-team-data-3-image{
+    background-image: url('per2.png')
+}
+.our-team-data-1-data{
+    margin-top:20px
+}
+.our-team-data-1-data h4{
+    font:normal bold 16px/30px arial;
+    text-transform:capitalize;
+    color:#1e1e1e
+}
+.our-team-data-1-data p{
+    font:normal normal 15px/20px arial;
+    color:#777;
+    text-transform:capitalize
+}
+.our-team-data-1-contact{
+    margin:15px 0 50px;
+    display: inline-block;
+    text-align: center;
+}
+.our-team-data-1-contact li{
+    list-style:none;
+    float:left;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    margin:0 5px;
+    border:3px solid #212121
+}
+.our-team-data-1-contact li:hover i{
+    transform:rotate(360deg);
+    cursor:pointer
+}
+.our-team-data-1-contact li i{
+    width:100%; 
+    color:#212121;
+    font-size:22px;
+    line-height:40px;
+    transition:1s all ease
+}
+.our-team-foot{
+    display:inline-block;
+    width:700px;
+    font:normal bold 14px/25px arial;
+    color:#888;
+    text-transform:capitalize
+}
+/* End Our Team */
+
+
+/* Start our partners */
+.partners{
+    text-align: center
+}
+.partners-data{
+    list-style:none;
+    display: inline-block
+}
+.partners-data li{
+    text-align:center;
+    float:left;
+    margin:30px 20px
+}
+/* End our partners */
+
+
+
+/* Start Contact Us*/
+.contact{
+    height:700px;
+    text-align:center;
+    background-image:url('a.jpg');
+    background-size:cover
+}
+.contact .cover{
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.7)
+}
+.contact-head{
+    margin:100px 0 60px;
+    display:inline-block
+}
+.contact-head h2{
+    font:normal bold 40px/70px arial;
+    text-transform:uppercase;
+    color:#f1f1f1
+}
+.contact-head p{
+    font:normal normal 18px/20px arial;
+    color:#999;
+    text-transform:capitalize
+}
+.contact-data-input{
+    width:50%;
+    float:left
+}
+.contact-data-input input{
+    width:90%;
+    height:60px;
+    border-radius:4px;
+    margin:15px;
+    font:normal bold 15px/60px arial;
+    padding-left:20px
+}
+.contact-data-input input:focus {
+    background:rgba(170, 170, 170, 0.2);
+    color:#fff
+}
+.contact-data textarea{
+    margin-top:15px;
+    float:left; 
+    width:45%;
+    height:240px;
+    border-radius:4px;
+    font:normal bold 15px/20px arial;
+    padding:20px
+}
+.contact-data textarea:focus {
+    background:rgba(170, 170, 170, 0.2);
+    color:#fff
+}
+.contact .button{
+    text-align:center;
+    padding-top:25px
+}
+.contact .button p{
+    display:inline-block;
+    width:240px;
+    height:65px;
+    font:normal bold 18px/65px arial;
+    text-transform:uppercase;
+    color:#eee;
+    background-color:#ffd136;
+    border-radius:3px;
+    transition:0.5s all ease;
+    letter-spacing:0.05em
+}
+.contact .button p:hover{
+    cursor:pointer;
+    opacity:0.9
+}
+/* End Contact Us*/
+
+
+
+/* Start Footer */
+.footer{
+    text-align:center
+}
+.footer p{
+    float:left;
+    display:inline-block;
+    width:40%;
+    font:normal bold 13px/100px arial;
+    text-transform:uppercase;
+    color:#555;
+}
+.footer ul{
+    list-style:none;
+    width:60%;
+    display:inline-block;
+    margin-top:30px
+}
+.footer ul li{
+    list-style:none;
+    float:left;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    margin:0 5px;
+    border:3px solid #212121
+}
+.footer ul li i{
+    color:#212121;
+    font-size:22px;
+    line-height:40px;
+    width:100%;
+    transition:1s all ease
+}
+.footer ul li:hover i{
+    transform:rotate(360deg);
+    cursor:pointer
+}
+/* End Footer */
